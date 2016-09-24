@@ -203,6 +203,7 @@ public class App {
                     System.out.println("");
                     System.out.println(jogador1.getNome()+":"+jogador1.getRanking()+" pontos");
                     System.out.println(jogador2.getNome()+":"+jogador2.getRanking()+" pontos");
+                    m.reset();
                     if(jogador1.getRanking() > jogador2.getRanking()) {
                         System.out.println(jogador1.getNome()+" venceu!");
                         ranki.OrdenarRanking(jogador1);

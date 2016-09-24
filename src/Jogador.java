@@ -20,7 +20,7 @@ public class Jogador {
         this.nome = nome;
     }
 
-    Jogador() {
+    public Jogador() {
 
     }
 
